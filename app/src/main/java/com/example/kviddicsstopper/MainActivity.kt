@@ -159,7 +159,7 @@ class MainActivity : AppCompatActivity() {
             input2.visibility = View.VISIBLE
             input3.visibility = View.VISIBLE
             progress.visibility = View.VISIBLE
-            //dev.visibility = View.VISIBLE
+            dev.visibility = View.VISIBLE
 
             //gone
             button1.visibility = View.GONE

@@ -276,7 +276,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginBottom="35dp"
         android:text="Dev"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
