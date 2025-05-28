@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/Theme.AppCompat.Light"
-    tools:context=".MainActivity">
+    tools:context=".TimerMenu">
 
     <!-- EditText for Button 1 text -->
 
@@ -17,44 +17,17 @@
     <!-- EditText for Button 3 text -->
 
     <!-- Button 3 -->
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="100dp"
-        android:text="..."
-        android:textSize="18sp"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="250dp"
-        android:text="..."
-        android:textSize="18sp"
-        android:visibility="gone"
+    <Switch
+        android:id="@+id/soleBool"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="120dp"
+        android:text="Sole Management  "
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="400dp"
-        android:text="..."
-        android:textSize="18sp"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/back"
@@ -63,165 +36,8 @@
         android:layout_marginStart="48dp"
         android:layout_marginBottom="35dp"
         android:text="Back"
-        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/name1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="81dp"
-        android:fontFamily="sans-serif-black"
-        android:text="name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/name2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="231dp"
-        android:fontFamily="sans-serif-black"
-        android:text="name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/name3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="381dp"
-        android:fontFamily="sans-serif-black"
-        android:text="name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/count1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="66dp"
-        android:layout_marginTop="130dp"
-        android:text="25 s"
-        android:visibility="gone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textSize="32dp" />
-
-    <TextView
-        android:id="@+id/count2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="66dp"
-        android:layout_marginTop="280dp"
-        android:text="25 s"
-        android:visibility="gone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textSize="32dp" />
-
-    <TextView
-        android:id="@+id/count3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="66dp"
-        android:layout_marginTop="430dp"
-        android:text="25 s"
-        android:visibility="gone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textSize="32dp" />
-
-    <Button
-        android:id="@+id/p1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="143dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="168dp"
-        android:text="Pause"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/p2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="143dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="168dp"
-        android:text="Pause"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/p3"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="143dp"
-        android:layout_marginTop="400dp"
-        android:layout_marginEnd="168dp"
-        android:text="Pause"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/r1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="256dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="55dp"
-        android:backgroundTint="#F44336"
-        android:text="Reset"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/r2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="256dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="55dp"
-        android:backgroundTint="#F44336"
-        android:text="Reset"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/r3"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="256dp"
-        android:layout_marginTop="400dp"
-        android:layout_marginEnd="55dp"
-        android:backgroundTint="#F44336"
-        android:text="Reset"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/progress"
@@ -238,7 +54,7 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="90dp"
         android:ems="20"
         android:inputType="text"
         android:text="Player 1"
@@ -250,7 +66,7 @@
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="text"
         android:text="Player 2"
@@ -261,48 +77,115 @@
         android:id="@+id/input3"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:inputType="text"
         android:text="Player 3"
+        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input2" />
 
-    <Button
-        android:id="@+id/dev"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginBottom="35dp"
-        android:text="Dev"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <EditText
-        android:id="@+id/timeInput"
-        android:layout_width="100dp"
+        android:id="@+id/input4"
+        android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="90dp"
         android:ems="10"
         android:inputType="text"
-        android:text="25"
+        android:text="Player 4"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input3" />
+
+    <EditText
+        android:id="@+id/input5"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Player 5"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input4" />
+
+    <EditText
+        android:id="@+id/input6"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Player 6"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input5" />
+
+    <Spinner
+        android:id="@+id/colour1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/input1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/colour2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/input4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/progressOnline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:text="Get Names"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/progress"
+        app:layout_constraintStart_toEndOf="@+id/back" />
+
+    <Spinner
+        android:id="@+id/team1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/q1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
-        android:text="Enter custom penalty time:"
-        android:textSize="20dp"
+    <Spinner
+        android:id="@+id/team2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/team1" />
+
+    <ProgressBar
+        android:id="@+id/ConstraintLayout"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/soleBool"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/soleBool"
+        app:layout_constraintTop_toTopOf="@+id/soleBool" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
